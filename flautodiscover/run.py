@@ -10,7 +10,7 @@ def local_path(*path_elements):
     return os.path.abspath(os.path.join(__file__, "..", *path_elements))
 
 conf = SafeConfigParser()
-conf.read('sample_conf.ini')
+conf.read('config.ini')
 DEBUG = conf.get('general', 'debug')
 
 app = Flask(__name__)
