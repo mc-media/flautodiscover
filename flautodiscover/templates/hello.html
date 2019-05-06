@@ -14,10 +14,11 @@
                 </div>
                 <div class="col-md-6 text-center v-center">
                     <h1><a href="/">{% ptrans ex_configure_your_email %}Configure your email at{% endptrans %} {{server}}</a></h1>
-                    <p class="lead">{% ptrans ex_lead_1 %}Set your email address and email client and press Get Help or{% endptrans %} <a href="#generic-info">{% ptrans ex_lead_2 %}Read generic information{% endptrans %}</a></p>
+                    <!-- <p class="lead">{% ptrans ex_lead_1 %}Set your email address and email client and press Get Help or{% endptrans %} <a href="#generic-info">{% ptrans ex_lead_2 %}Read generic information{% endptrans %}</a></p> -->
                     <br>
                 </div>
         </div>
+        <!--
         <div class="row well">
                 <form action="." method="get">
                     <div class="col-md-4">
@@ -42,10 +43,10 @@
                 </form>
             </div>
             <div class="col-lg-12 text-left">
-                <!-- {{template_doc}} -->
                 {% include template_doc %}
             </div>
         </div>
+        -->
     </div> <!-- /container full -->
     <div class="container">
         <hr>
@@ -75,7 +76,7 @@
                     <ul class="list-group">
                         <li class="list-group-item"><strong>{% ptrans ex_host %}Host{% endptrans %}:</strong> {{pop.host}}</li>
                         <li class="list-group-item"><strong>{% ptrans ex_port %}Port{% endptrans %}:</strong> {{pop.port}}</li>
-                        <li class="list-group-item"><strong>{% ptrans ex_ssl %}SSL{% endptrans %}:</strong> {{pop.spa}}</li>
+                        <!-- <li class="list-group-item"><strong>{% ptrans ex_ssl %}SSL{% endptrans %}:</strong> {{pop.spa}}</li>-->
                         <li class="list-group-item"><strong>{% ptrans ex_socket %}Connection security{% endptrans %}:</strong> {{pop.socket}}</li>
                         <li class="list-group-item"><strong>Ms Outlook {% ptrans ex_check_spa %}Check SPA{% endptrans %}:</strong> {{pop.spa}}</li>
                     </ul>
