@@ -1,6 +1,6 @@
 import os, uuid
 import xmltodict
-from ConfigParser import SafeConfigParser
+from configparser import SafeConfigParser
 from flask import Flask, request, render_template, make_response, redirect, abort
 #~ from settings import *
 from flaskext.markdown import Markdown
@@ -60,11 +60,11 @@ context = {
 @app.before_request
 def before_request():
     if DEBUG:
-        print "HEADERS", request.headers
-        print "REQ_path", request.path
-        print "ARGS",request.args
-        print "DATA",request.data
-        print "FORM",request.form
+        print("HEADERS", request.headers)
+        print("REQ_path", request.path)
+        print("ARGS",request.args)
+        print("DATA",request.data)
+        print("FORM",request.form)
 
 @app.route("/Autodiscover/Autodiscover.xml", methods=['GET','POST',])
 @app.route("/autodiscover/autodiscover.xml", methods=['GET','POST',])
@@ -158,6 +158,6 @@ def ios_applemail():
     abort(404)
     
 if __name__ == "__main__":
-    print DEBUG
+    print(DEBUG)
     #~ app.run(debug=DEBUG, host=HOST, port=443, ssl_context='adhoc') #For development purposes only. pyOpenssl required
     app.run(debug=DEBUG, host=conf.get('general', 'host'), port=int(conf.get('general', 'port')))
