@@ -25,9 +25,10 @@
 			<authentication>{{smtp.authentication}}</authentication>
 			<username>%EMAILADDRESS%</username>
 	    </outgoingServer>
-        <documentation url="http://autodiscover.getcloud.info">
+        <documentation url="{{company_url}}">
             <descr lang="es">Sitio de documentacion</descr>
             <descr lang="en">Documentation website</descr>
+            <descr lang="fr">Site de documentation</descr>
         </documentation>
 	</emailProvider>
 </clientConfig>
