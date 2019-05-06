@@ -1,0 +1,53 @@
+{
+  "ex_configure_your_email": {
+    "value": "Configurez votre email sur"
+  },
+  "ex_enter_email_address": {
+    "value": "Entrez votre adresse email"
+  },
+  "ex_lead_1": {
+    "value": "Introduce tu dirección email y cliente de correo y pulsa Conseguir Ayuda o"
+  },
+  "ex_lead_2": {
+    "value": "Informations génériques"
+  },
+  "ex_get_help": {
+    "value": "Conseguir Ayuda"
+  },
+  "ex_configure_imap_server": {
+    "value": "Serveur entrant IMAP"
+  },
+  "ex_configure_pop_server": {
+    "value": "Serveur entrant POP"
+  },
+  "ex_configure_smtp_server": {
+    "value": "Serveur sortant SMTP"
+  },
+  "ex_recommended_gmail_only": {
+    "value": "Recommandé pour gmail uniquement"
+  },
+  "ex_contact_and_support": {
+    "value": "Contact et support"
+  },
+  "ex_host": {
+    "value": "Serveur"
+  },
+  "ex_port": {
+    "value": "Port"
+  },
+  "ex_check_spa": {
+    "value": "Cocher SPA"
+  },
+  "ex_socket": {
+    "value": "Sécurité"
+  },
+  "ex_password_security": {
+    "value": "Méthode d'identification"
+  },
+  "ex_plain_password": {
+    "value": "Mot de passe normal"
+  },
+  "ex_encripted_password": {
+    "value": "Mot de passe chiffré"
+  }
+}
